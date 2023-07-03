@@ -10,7 +10,7 @@ public class Main {
         boardone.getYsize(MAX_Y);
         boardone.makeboard();
 
-        GUI.GUI();
+        GUI.GUI(MAX_Y, MAX_X);
     }
 }
 
@@ -21,7 +21,7 @@ class Boardcell {
         this.who = 1;
     }
 
-    void setwhite() {
+    void setWhite() {
         this.who = 2;
     }
 }
